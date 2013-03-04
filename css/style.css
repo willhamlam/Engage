@@ -1,0 +1,121 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: url(../img/bg.jpg) no-repeat 50% 10% fixed;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font: normal 14px/1 "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, "STHeiti", SimSun, sans-serif;
+  color: white;
+}
+
+@font-face {
+	font-family: 'AvenirRoman';
+	src: url('../fontface/fonts/avenir-roman-webfont.eot'); /* IE9 Compat Modes */
+	src: url('../fontface/fonts/avenir-roman-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('../fontface/fonts/avenir-roman-webfont.woff') format('woff'), /* Modern Browsers */
+	     url('../fontface/fonts/avenir-roman-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('../fontface/fonts/avenir-roman-webfont.svg#AvenirRoman') format('svg'); /* Legacy iOS */
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+.main {
+	margin-bottom: 30px;
+}
+
+.main > div ,.sub-title > div{
+	display: inline-block;
+}
+.main > div {
+	height: 100px;
+}
+
+.main-title {
+	padding-right: 30px;
+	margin-right: 30px;
+	border-right: 1px solid #ffffff;
+}
+
+.under-construction {
+	font-size: 60px;
+	margin: 0;
+	line-height: 100px;
+}
+
+.logo {
+	width: 30px;
+}
+
+.container {
+	margin: 300px 0 0px 100px;
+}
+
+.under-construction {
+	font-size: 60px;
+	margin: 0;
+	line-height: 100px;
+}
+
+.sub-title {
+vertical-align: top;
+}
+.wrap {
+margin-top: 31px;
+}
+.logo {
+width: 46px;
+margin-right: 20px;
+}
+.engage {
+display: inline-block;
+margin-right: 19px;
+}
+.engage-chn {
+font-size: 20px;
+letter-spacing: 2px;
+}
+.engage-eng {
+font-size: 12px;
+letter-spacing: 6px;
+margin-top: 9px;
+}
+.contact-item {
+margin-right: 41px;
+}
+.item-icon {
+width: 20px;
+vertical-align: bottom;
+margin-right: 5px;
+}
+.contact-us {
+font-size: 13px;
+}
+.fw400 {
+	font-weight: 400;
+
+}
+
+.ls7 {
+	letter-spacing: 7px;
+}
